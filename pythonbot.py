@@ -1,3 +1,6 @@
+# Author: Ken
+# Date: June 27, 2017
+# Name: PythonBotIRC
 import socket
 import sys
 

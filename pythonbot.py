@@ -22,7 +22,7 @@ while 1:
     buff = s.recv(1024).decode("UTF-8")
     clean = buff.strip("\n\r")
     print(buff)
-    if original.find("PING :") != -1:
+    if buff.find("PING :") != -1:
         s.send(bytes("PONG :ping\r\n", "UTF-8"))
         print("PONG :ping\r\n")
     # user authentication, 20 = max username length for swiftirc

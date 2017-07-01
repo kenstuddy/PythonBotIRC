@@ -16,7 +16,7 @@ clean = ''
 # Create the socket for the IRC connection.
 s = socket.socket()
 # Connect to the hostname (DNS) and port (6667 is the default IRC port)
-s.connect(host, port)
+s.connect((host, port))
 
 # Send the NICK to the socket which tells the IRCD (IRC Daemon) to set our nick
 # IRC usually uses UTF-8, so we specify UTF-8 as the character encoding.

@@ -7,12 +7,18 @@ Python 3.0 or newer
 # How to install
 Clone the repository
 
-```git clone https://github.com/kenstuddy/PythonBotIRC```
+```
+git clone https://github.com/kenstuddy/PythonBotIRC
+```
 
 Change to the repository directory
 
-```cd PythonBotIRC```
+```
+cd PythonBotIRC
+```
 
 Run the py file using the ```python3``` command
 
-```python3 pythonbot.py```
+```
+python3 pythonbot.py
+```
